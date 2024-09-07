@@ -3,10 +3,16 @@ public class Main {
         System.out.println("welcome our simple calcualtor " + "");
 
         System.out.println(add(2,3));
+        System.out.println(mult(2,3));
     }
 
     public static int add(int a, int b) {
         return  a + b;
+    }
+
+
+    public static int mult(int a, int b) {
+        return  a * b;
     }
 
 }
