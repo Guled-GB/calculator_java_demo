@@ -4,6 +4,10 @@ public class Main {
 
         System.out.println(add(2,3));
         System.out.println(mult(2,3));
+
+        int result = devision(2, 3);
+        System.out.println(result);
+        System.out.println(devision(2,1));
     }
 
     public static int add(int a, int b) {
@@ -13,6 +17,9 @@ public class Main {
 
     public static int mult(int a, int b) {
         return  a * b;
+    }
+    public static int devision(int a, int b) {
+        return a / b;
     }
 
 }
