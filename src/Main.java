@@ -8,6 +8,13 @@ public class Main {
         int result = devision(2, 3);
         System.out.println(result);
         System.out.println(devision(2,1));
+
+
+
+        result = sub(8,4);
+
+        System.out.println("sub results "  + result);
+
     }
 
     public static int add(int a, int b) {
@@ -20,6 +27,10 @@ public class Main {
     }
     public static int devision(int a, int b) {
         return a / b;
+    }
+
+    public  static  int sub(int a, int b ) {
+        return a-b;
     }
 
 }
